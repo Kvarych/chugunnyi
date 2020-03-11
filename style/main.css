@@ -80,6 +80,16 @@ aside {
 
 }
 
+@media(max-widh: 800px) {
+    .container{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
 
 /* Подвал сайта */
 footer {
