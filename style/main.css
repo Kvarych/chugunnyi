@@ -1,97 +1,87 @@
+/* Импорт стилей, шрифтов и иконок */
+/* Сброс CSS */
 @import url("https://marksheet.io/css/reset.css");
 
-/*
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
 
-@media (min-width: 1281px) {
-
-  //CSS
-
+/* Базовые стили */
+html {
+    height: 100%;
 }
-
-/*
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-
-  //CSS
-
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
-
-/*
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-
-  //CSS
-
-}
-
-/*
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-  //CSS
-
-}
-
-/*
-  ##Device = Low Resolution Tablets, Mobiles (landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-
-  //CSS
-
-}
-
-/*
-  ##Device = Most of the Smartphones Mobiles (portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-
-  //CSS
-
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1024px; /*максимальная ширина может иметь другое значение*/
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 
-/*Контейнер для содержания страницы*/
-.container{
-  width: 100%;
-  max-width: 1024px;/*максимальная ширина может иметь другое значение*/
-  padding: 0 15px;
-  margin: 0 auto
-}
-/*Главное меню в шапке*/
-nav ul {
- margin: 0;
- padding: 0;
- list-style: none;
- display: flex; /*Обозначаем, что это flex контейнер*/
-}
-/*Предустановки для разметки flex-элементов:
-row - горизонтально,
-column - вертикально*/
+/* Предустановки */
 .row {
- flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 .column {
- flex-direction: column;
+    display: flex;
+    flex-direction: column;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-h1 {
-    font-size: 20px;
-    color: darkslateblue;
+
+/* Гибкая верстка */
+img {
+    width: 100%;
+    max-width: 100%;
+}
+.col-1 {
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+}
+.col-3 {
+    flex: 3;
+}
+.col-4 {
+    flex: 4;
+}
+.col-5 {
+    flex: 5;
+}
+
+
+/* Шапка сайта */
+header {
+    flex: 0 0 auto;
+}
+
+
+/* Основное содержимое */
+main {
+    display: flex;
+    flex: 1 0 auto;
+}
+main > div.container {
+    flex: 1 0 auto;
+}
+section {
+
+}
+aside {
+
+}
+
+
+/* Подвал сайта */
+footer {
+    flex: 0 0 auto;
 }
