@@ -89,9 +89,12 @@ main > div.container {
 
 }
 section {
-
+    flex: 3 0 auto;
+    padding: 0 15px;
 }
 aside {
+    flex: 3 0 auto;
+    padding: 0 15px;
 
 }
 
@@ -115,6 +118,9 @@ footer {
 }
 footer > div.container{
     height: 100%;
+    padding: 10px 0;
+
+
 }
 
 
