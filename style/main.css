@@ -73,6 +73,10 @@ header > div.container{
     align-items: center;
 }
 
+header ul li {
+    margin-right: 20px;
+}
+
 
 /* Основное содержимое */
 main {
