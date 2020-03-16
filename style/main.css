@@ -63,6 +63,7 @@ img {
 header {
     flex: 0 0 auto;
     background-color: navy;
+    height: 100px;
 
 }
 
@@ -103,6 +104,7 @@ aside {
 footer {
     flex: 0 0 auto;
     background-color: navy;
+    height: 300px;
 }
 
 
