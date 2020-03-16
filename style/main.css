@@ -111,10 +111,11 @@ footer {
     flex: 0 0 auto;
     background-color: navy;
     height: 200px;
-    height: 100%;
     color: white;
 }
-
+footer > div.container{
+    height: 100%;
+}
 
 
 
