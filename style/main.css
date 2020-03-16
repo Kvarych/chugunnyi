@@ -64,7 +64,13 @@ header {
     flex: 0 0 auto;
     background-color: navy;
     height: 100px;
+    color: white;
 
+}
+
+header > div.container{
+    height: 100%;
+    align-items: center;
 }
 
 
