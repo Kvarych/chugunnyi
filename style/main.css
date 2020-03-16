@@ -71,10 +71,12 @@ header {
 main {
     display: flex;
     flex: 1 0 auto;
+    background-color: lightslategray;
+
 }
 main > div.container {
     flex: 1 0 auto;
-    background-color: lightslategray;
+    background-color: white;
 
 
 
