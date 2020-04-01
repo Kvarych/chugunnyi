@@ -83,7 +83,7 @@ main {
     display: flex;
     flex: 1 0 auto;
     background-color: lightslategray;
-    background-image: url(/site/images/background.jpg);
+    background-image: url(/site/images/background.jpg);--
     background-position: center center;
     background-size: cover;
 
