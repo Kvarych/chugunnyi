@@ -236,6 +236,59 @@ header li a {
 .content {
     flex: 1 0 auto;
     background-color: white;
+    padding: 55px 0;
+}
+
+.content div {
+    justify-content: space-between;
+}
+
+.left-column {
+    max-width: 440px;
+    padding:  30px 30px 30px 0;
+}
+
+.right-column {
+    max-width: 440px;
+    padding: 30px 0;
+}
+
+.content img {
+    width: 100%;
+    max-width: 440px;
+}
+
+.content h2 {
+    font-family: Courier new, sans-serif;
+    font-size: 1.6em;
+    font-weight: bold;
+    padding-bottom: 40px
+}
+
+.content p {
+
+    line-height: 20px;
+    padding-bottom: 15px;
+}
+
+.content ul {
+    margin-left: 25px;
+}
+
+.content li {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.content li::before {
+    content: "";
+    position: absolute;
+    left: -25px;
+    top: 5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #feca30;
 }
 
 /*Подвал сайта*/
@@ -243,7 +296,39 @@ header li a {
 footer {
     flex: 0 0 auto;
     background-color: black;
+    padding: 85px 0 55px 0;
+    color: white;
 }
+
+.copyright {
+    color: aquamarine;
+    padding-top: 100px;
+}
+
+footer h3 {
+    margin:  20px 20px 40px 0;
+    padding-bottom: 20px;
+    color: aqua;
+    text-transform: uppercase;
+    border-bottom: 1px solid #______;
+}
+
+footer h3 a {
+    color: blue;
+    text-decoration: none;
+}
+
+footer li {
+    margin-bottom: 20px;
+}
+
+footer li a {
+    color: red;
+    text-decoration: none;
+}
+
+
+
 
 
 
