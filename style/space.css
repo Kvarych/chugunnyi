@@ -213,7 +213,25 @@ header li a {
 .advantages {
     flex: 1 0 auto;
     background-color: black;
+    padding: 55px 0 85px 0;
+    color: white;
 }
+
+.advantages div {
+    justify-content: space-around;
+}
+
+.advantages .block-item {
+    max-width: 200px
+}
+
+.advantages img {
+    padding: 30px 0;
+}
+
+
+
+
 
 .content {
     flex: 1 0 auto;
